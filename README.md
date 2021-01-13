@@ -13,7 +13,7 @@ If the above went all well, you should be setup for running the benchmarks.
 
 ## Running benchmarks and generating data points for hbACSS
 
-You need to start a shell session in a container:
+You need to start a shell session in a container. The first run would takes longer time since the docker image needs to be built:
 ```
 $ docker-compose run --rm honeybadgermpc bash
 ```
