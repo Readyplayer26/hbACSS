@@ -30,10 +30,12 @@ This would save the results under `.benmarks` in the same format as [DataWinterf
 
 ## Generating graphs
 
-We've already included the data in our previous runs of benchmarks under [DataWinterfell](../Datawinterfell). We also include the AMT benchmarking results with the described modifications in our paper.
+We've included the data in our previous runs of benchmarks under [DataWinterfell](../Datawinterfell). The [amt_benchmars](../Datawinterfell/amt_benchmarks) contains the benchmarking results for [AMT](https://github.com/alinush/libpolycrypto), which is obtained with the described modifications in our paper. The [Linux-CPython-3.7-64bit](../Datawinterfell/Linux-CPython-3.7-64bit) contains the results we ran based on the aforementioned on our machine for evaluation. 
 
 You can then run the gengraphs:
 ```
 $ python polycommit_loglin_gengraphs.py
 ```
 This doesn't have to be running in container.
+
+
