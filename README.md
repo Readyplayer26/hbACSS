@@ -28,13 +28,9 @@ $ pytest --benchmark-save=hbacss2_dummy_pcl --benchmark-min-rounds=3 --benchmark
 
 This would save the results under `.benmarks` in the same format as [DataWinterfell](../Datawinterfell).
 
-## Running benchmarks and generating data points for AMT
-
-TODO: Added later
-
 ## Generating graphs
 
-We've already included the data in our previous runs of benchmarks under [DataWinterfell](../Datawinterfell)
+We've already included the data in our previous runs of benchmarks under [DataWinterfell](../Datawinterfell). We also include the AMT benchmarking results with the described modifications in our paper.
 
 You can then run the gengraphs:
 ```
