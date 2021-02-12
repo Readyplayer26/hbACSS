@@ -71,6 +71,7 @@ RUN pip install \
     psutil \
     pycrypto \
     pyzmq \
+    matplotlib \
     zfec 
 
 # This is needed otherwise the build for the power sum solver will fail.
